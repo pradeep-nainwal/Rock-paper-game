@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <p class="title">
+    Rock Paper Scissors
+  </p> 
+
+  <button onclick="playgame('rock')" class="hand-button">
+    <img src="images/rock.jpg" class="hand-icon">
+  </button>
+
+  <button onclick="playgame('paper')" class="hand-button">
+    <img src="images/paper.jpg" class="hand-icon">
+  </button>
+
+  <button onclick="playgame('scissors')" class="hand-button">
+    <img src="images/scissors.jpg" class="hand-icon">
+  </button>
+
+  <p class="moves"></p> 
+  <p id="result" class="result"></p>
+  <p id="score" class="score"></p>
+  <p id="resetmessage"></p>
+
+  <button onclick="reset()" class="reset-bt">Reset score</button>
+
+
+  <p class="credits">Game designed and developed by Pradeep Nainwal.</p>
+
+
+<script src="javascript.js"></script>
+</body>
+</html>
